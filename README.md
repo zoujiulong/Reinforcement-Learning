@@ -1,7 +1,9 @@
 # Reinforcement-Learning  
 
 **场景**:[FrozenLake-v1](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/)        **方法**:`DQN`  
-`colab代码`:[DQN](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/DQN.ipynb)
+`colab代码`:[DQN](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/DQN.ipynb)  
+
+**注**：经验回放不要任意使用，以该场景为例，只有终点奖励值为1，如果经验回放很可能sample都是无用的轨迹，网络学不到任何东西.  
 
 **场景**:[CartPole-v1](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)        **方法**:`PPO`结合`MC`  
 `Actor loss`、策略比例、`Critic loss`(同下)  
