@@ -1,8 +1,9 @@
-# Reinforcement-Learning
+# Reinforcement-Learning  
+
 **场景**:[CartPole-v1](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)        **方法**:`PPO`结合`MC`  
 `Actor loss`、策略比例、`Critic loss`(同下)  
-`colab代码`:[PPO(MC)](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/PPO(MC).ipynb)
----
+`colab代码`:[PPO(MC)](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/PPO(MC).ipynb)    
+
 **场景**:[LunarLander-v3](https://www.gymlibrary.dev/environments/box2d/lunar_lander/)         **方法**:`PPO`结合`GAE`  
 `Actor loss`:![image](https://github.com/user-attachments/assets/54754593-d94f-45d3-978e-690870838fd2)  
 其中策略比例为：  
@@ -10,3 +11,4 @@
 `Critic loss`：  
 ![image](https://github.com/user-attachments/assets/c1d50314-0062-4eda-904b-ca0ede6bdfbe)    
 `colab代码`:[PPO(GAE)](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/PPO.ipynb)
+
