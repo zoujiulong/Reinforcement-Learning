@@ -1,8 +1,12 @@
 # Reinforcement-Learning  
 
+**场景**:[FrozenLake-v1](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/)        **方法**:`DQN`  
+`colab代码`:[DQN](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/DQN.ipynb)
+
 **场景**:[CartPole-v1](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)        **方法**:`PPO`结合`MC`  
 `Actor loss`、策略比例、`Critic loss`(同下)  
 `colab代码`:[PPO(MC)](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/PPO(MC).ipynb)    
+**注**：由于奖励都是1，`TD`方法不适合该场景.  
 
 **场景**:[LunarLander-v3](https://www.gymlibrary.dev/environments/box2d/lunar_lander/)         **方法**:`PPO`结合`GAE`  
 `Actor loss`:![image](https://github.com/user-attachments/assets/54754593-d94f-45d3-978e-690870838fd2)  
