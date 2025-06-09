@@ -6,6 +6,7 @@
 **注**：经验回放不要任意使用，以该场景为例，只有终点奖励值为1，如果经验回放很可能sample都是无用的轨迹，网络学不到任何东西.  
 
 **场景**:[CartPole-v1](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)        **方法**:`DDQN`  
+**核心**:`利用Target网络评估Policy网络选择动作的好坏`  
 `colab代码`:[DDQN](https://github.com/zoujiulong/Reinforcement-Learning/blob/main/DDQN.ipynb)  
  
 
